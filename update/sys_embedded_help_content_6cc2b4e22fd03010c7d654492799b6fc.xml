@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <content><![CDATA[<h1 class="title topictitle1">Needit Records Help</h1>
+<h2 class="title sectiontitle">How to Create a new Needit record ?</h2>
+<p>In Application navigator, type needit and click on Needit &gt; Create New. Before creating a new records you should know for whom you are requesting this for. More <a title="info" href="www.google.com" target="_blank" rel="noopener">info</a></p>
+<div class="video"><iframe src="https://www.youtube.com/embed/5RQ4O2pVFRc" frameborder="0" allowfullscreen=""></iframe>
+<p class="p">Jab Mohit Met Rashmi | Unique &amp; Interesting Marriage Invitation Video |</p>
+</div>
+<p> </p>
+<h2 class="title sectiontitle">How to View existing needit records.</h2>
+<p>In Application navigator, type needit and click on Needit &gt; All.</p>
+<p> </p>]]></content>
+        <last_sync/>
+        <modifier>normal</modifier>
+        <name>NeedIt List - Admin</name>
+        <page>x_58872_needit_needit_list</page>
+        <product>1</product>
+        <qualifier/>
+        <role display_value="x_58872_needit.admin" name="x_58872_needit.admin">168e57609f213200bde5f79ff57fcfb4</role>
+        <role_order>10</role_order>
+        <snc_created>false</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-26 07:54:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6cc2b4e22fd03010c7d654492799b6fc</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>NeedIt List - Admin</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_embedded_help_content_6cc2b4e22fd03010c7d654492799b6fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-26 08:12:52</sys_updated_on>
+        <version>all</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=6cc2b4e22fd03010c7d654492799b6fc"/>
+</record_update>
