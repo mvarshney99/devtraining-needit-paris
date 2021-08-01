@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="task" table="x_58872_needit_needit_task">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="topic_variable">
+    <topic_variable action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
-        <audit>true</audit>
+        <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
 	// Add your code here
@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>User</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,41 +27,52 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element/>
+        <element>user</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Collection">collection</internal_type>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>User</label>
+        <limit/>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <name>x_58872_needit_needit_task</name>
+        <max_length>32</max_length>
+        <model display_value="Needit Request">4c77815f2fd13010c7d654492799b67d</model>
+        <model_id>4c77815f2fd13010c7d654492799b67d</model_id>
+        <model_table/>
+        <name>var__m_topic_variable_4c77815f2fd13010c7d654492799b67d</name>
         <next_element/>
+        <order>100</order>
         <primary>false</primary>
+        <query_parameters/>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="sys_user">sys_user</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass>6</sizeclass>
+        <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
-        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_class_name>topic_variable</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-04-05 19:43:12</sys_created_on>
-        <sys_id>8018d4a32f013010c7d654492799b63f</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>x_58872_needit_needit_task</sys_name>
+        <sys_created_on>2021-07-17 10:22:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8877815f2fd13010c7d654492799b67e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>User</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_dictionary_x_58872_needit_needit_task_null</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2021-07-30 10:15:04</sys_updated_on>
+        <sys_update_name>topic_variable_8877815f2fd13010c7d654492799b67e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-17 10:22:47</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -72,5 +83,6 @@
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
-    </sys_dictionary>
+    </topic_variable>
+    <sys_element_mapping action="delete_multiple" query="id=8877815f2fd13010c7d654492799b67e"/>
 </record_update>
